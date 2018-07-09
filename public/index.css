@@ -1,0 +1,26 @@
+body {
+text-align: center;
+  margin: 0;
+  color: #02ff88;
+  padding: 100px;
+  background-image: url("https://cityondemand.com/wp-content/uploads/2015/02/cityondemand-mediterranean-greek-dining-deals-010.jpg");
+  background-size: cover;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-gap: 10px;
+  color: white;
+}
+li {
+  background-color: darkorange;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  padding: -10px;
+  color: black;
+}
